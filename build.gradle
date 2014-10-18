@@ -1,0 +1,14 @@
+apply plugin: 'idea'
+apply plugin: 'scala'
+
+repositories{
+    mavenCentral()
+    mavenLocal()
+}
+
+dependencies{
+//    compile "org.scala-lang:scala-library:2.10.2"
+//    compile "org.scala-lang:scala-compiler:2.10.2"
+//    compile "org.scala-lang:scala-reflect:2.10.2"
+    testCompile "junit:junit:4.11"
+}
